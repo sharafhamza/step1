@@ -1,0 +1,51 @@
+body {
+  background-color: #213547;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.step {
+  padding: 20px 40px;
+  background: #f6f6f6;
+  width: 500px;
+  height: 210px;
+  border-radius: 10px;
+}
+.numbers {
+  display: flex;
+
+  justify-content: space-between;
+}
+.numbers div {
+  background: #bfb5ad3b;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #a79c9c99;
+  font-weight: 600;
+}
+.active {
+  background: #6f46f1 !important;
+  color: white;
+}
+.message {
+  font-size: 25px;
+  margin: 20px 0;
+  margin-top: 40px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons button {
+  background: #6f46f1 !important;
+  color: white;
+  border-radius: 50px;
+  font-size: 16px;
+}
